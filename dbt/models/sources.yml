@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: daily_prices
+        description: >
+          Typed price records, upsert-loaded by the Airflow extractor.
+          Grain: one row per ticker per trading day.
+        loaded_at_field: loaded_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}
+        columns:
+          - name: ticker
+            tests: [not_null]
+          - name: trade_date
+            tests: [not_null]
+
+      - name: raw_api_responses
+        description: >
+          Immutable, append-only landing table storing the full JSONB
+          payload from each Alpha Vantage API call.
+        loaded_at_field: fetched_at
+        freshness:
+          warn_after: {count: 26, period: hour}
+          error_after: {count: 50, period: hour}

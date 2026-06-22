@@ -74,3 +74,1034 @@ Happy modeling!
 [0m17:00:42.910465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2DB56250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE351B9DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE351C7490>]}
 [0m17:00:42.910465 [debug] [MainThread]: Flushing usage events
 [0m17:00:44.339272 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:46:52.627018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FACFB7C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FAE6C1510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FAE6C0750>]}
+
+
+============================== 14:46:52.643619 | e7d9c865-342e-46ed-92d7-097848ec93ee ==============================
+[0m14:46:52.643619 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m14:46:52.645624 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt deps', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt\\logs'}
+[0m14:46:53.020886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e7d9c865-342e-46ed-92d7-097848ec93ee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FACC9DE90>]}
+[0m14:46:53.361959 [debug] [MainThread]: Set downloads directory='C:\Users\karth\AppData\Local\Temp\dbt-downloads-6l4dr53z'
+[0m14:46:53.363402 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m14:46:54.032155 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m14:46:54.034162 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m14:46:54.695889 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m14:46:54.733160 [info ] [MainThread]: Updating lock file in file path: C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt/package-lock.yml
+[0m14:46:54.753373 [debug] [MainThread]: Set downloads directory='C:\Users\karth\AppData\Local\Temp\dbt-downloads-d8yxn2kl'
+[0m14:46:54.764054 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m14:46:59.683316 [info ] [MainThread]: Installed from version 1.3.0
+[0m14:46:59.684317 [info ] [MainThread]: Updated version available: 1.4.0
+[0m14:46:59.686839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'e7d9c865-342e-46ed-92d7-097848ec93ee', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FAE5F6050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FACD1CFD0>]}
+[0m14:46:59.687838 [info ] [MainThread]: 
+[0m14:46:59.689837 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m14:46:59.694358 [debug] [MainThread]: Command `dbt deps` succeeded at 14:46:59.694358 after 7.32 seconds
+[0m14:46:59.696370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA6F69E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FAE6AA050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FAE5DAC10>]}
+[0m14:46:59.698368 [debug] [MainThread]: Flushing usage events
+[0m14:47:01.360549 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:47:20.061600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55CC2910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55CC1A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55CC1890>]}
+
+
+============================== 14:47:20.069494 | f61f08e9-1ca4-40df-b259-2b631ba786cc ==============================
+[0m14:47:20.069494 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m14:47:20.070506 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt run --select staging', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt\\logs'}
+[0m14:47:20.940726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA51856AD0>]}
+[0m14:47:21.027136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA515CFA50>]}
+[0m14:47:21.037658 [info ] [MainThread]: Registered adapter: postgres=1.10.1
+[0m14:47:21.744527 [debug] [MainThread]: checksum: 40beab80b6cad862030875d0a18b9ee6cc0d3d0e050479ced91404139da7fe01, vars: {}, profile: finance_pipeline, target: dev, version: 1.12.0b3
+[0m14:47:21.746646 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:47:21.747657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55DA4850>]}
+[0m14:47:25.368338 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `dbt_utils.accepted_range` defined on
+'stg_daily_prices' in package 'finance_pipeline' (models\staging\schema.yml).
+Arguments to generic tests should be nested under the `arguments` property.
+[0m14:47:25.369338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA57924B10>]}
+[0m14:47:25.622397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA579CB3D0>]}
+[0m14:47:25.863988 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\manifest.json
+[0m14:47:25.884153 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\semantic_manifest.json
+[0m14:47:26.208310 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\osi_document.json
+[0m14:47:26.274992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA57750E50>]}
+[0m14:47:26.276504 [info ] [MainThread]: Found 4 models, 17 data tests, 2 sources, 591 macros
+[0m14:47:26.277514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f61f08e9-1ca4-40df-b259-2b631ba786cc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA57707D50>]}
+[0m14:47:26.280517 [info ] [MainThread]: 
+[0m14:47:26.281514 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:47:26.282511 [info ] [MainThread]: 
+[0m14:47:26.283594 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:47:26.294666 [debug] [ThreadPool]: Acquiring new postgres connection 'list_finance_db'
+[0m14:47:29.768845 [debug] [ThreadPool]: Using postgres connection "list_finance_db"
+[0m14:47:29.769828 [debug] [ThreadPool]: On list_finance_db: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "list_finance_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m14:47:29.769828 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:47:29.831685 [debug] [ThreadPool]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "finance_admin"
+
+[0m14:47:29.864277 [debug] [ThreadPool]: Postgres adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "list_finance_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m14:47:29.865277 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m14:47:29.866782 [debug] [ThreadPool]: Postgres adapter: Error running SQL: macro list_schemas
+[0m14:47:29.867792 [debug] [ThreadPool]: Postgres adapter: Rolling back transaction.
+[0m14:47:29.868790 [debug] [ThreadPool]: On list_finance_db: No close available on handle
+[0m14:47:29.870788 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:47:29.871788 [debug] [MainThread]: Connection 'list_finance_db' was properly closed.
+[0m14:47:29.872788 [info ] [MainThread]: 
+[0m14:47:29.873294 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 3.59 seconds (3.59s).
+[0m14:47:29.875305 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "finance_admin"
+  
+[0m14:47:29.877823 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 3 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m14:47:29.880823 [debug] [MainThread]: Command `dbt run` failed at 14:47:29.880823 after 10.01 seconds
+[0m14:47:29.882826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55DA6A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA55DA6390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FA57827C90>]}
+[0m14:47:29.884343 [debug] [MainThread]: Flushing usage events
+[0m14:47:31.379280 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:49:48.081582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FDC01D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FE07210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FE06A90>]}
+
+
+============================== 14:49:48.086154 | 600bbd92-6a1f-4f5a-a5f0-fab46c662c8e ==============================
+[0m14:49:48.086154 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m14:49:48.087156 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt\\logs'}
+[0m14:49:48.132319 [info ] [MainThread]: dbt version: 1.12.0-b3
+[0m14:49:48.133354 [info ] [MainThread]: python version: 3.11.9
+[0m14:49:48.134860 [info ] [MainThread]: python path: C:\Users\karth\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+[0m14:49:48.135868 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m14:49:48.261769 [info ] [MainThread]: Using profiles dir at C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt
+[0m14:49:48.262768 [info ] [MainThread]: Using profiles.yml file at C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\profiles.yml
+[0m14:49:48.263771 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\dbt_project.yml
+[0m14:49:48.264771 [info ] [MainThread]: adapter type: postgres
+[0m14:49:48.265773 [info ] [MainThread]: adapter version: 1.10.1
+[0m14:49:48.383550 [info ] [MainThread]: Configuration:
+[0m14:49:48.384546 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:49:48.385512 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:49:48.386787 [info ] [MainThread]: Required dependencies:
+[0m14:49:48.387787 [debug] [MainThread]: Executing "git --help"
+[0m14:49:48.459825 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:49:48.460823 [debug] [MainThread]: STDERR: "b''"
+[0m14:49:48.461824 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:49:48.462826 [info ] [MainThread]: Connection:
+[0m14:49:48.463825 [info ] [MainThread]:   host: localhost
+[0m14:49:48.463825 [info ] [MainThread]:   port: 5432
+[0m14:49:48.464827 [info ] [MainThread]:   user: finance_admin
+[0m14:49:48.465824 [info ] [MainThread]:   database: finance_db
+[0m14:49:48.465824 [info ] [MainThread]:   schema: dbt_dev
+[0m14:49:48.467244 [info ] [MainThread]:   connect_timeout: 10
+[0m14:49:48.468244 [info ] [MainThread]:   role: None
+[0m14:49:48.469754 [info ] [MainThread]:   search_path: None
+[0m14:49:48.470765 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:49:48.472764 [info ] [MainThread]:   sslmode: None
+[0m14:49:48.472764 [info ] [MainThread]:   sslcert: None
+[0m14:49:48.474271 [info ] [MainThread]:   sslkey: None
+[0m14:49:48.475791 [info ] [MainThread]:   sslrootcert: None
+[0m14:49:48.477332 [info ] [MainThread]:   application_name: dbt
+[0m14:49:48.478328 [info ] [MainThread]:   retries: 1
+[0m14:49:48.480326 [info ] [MainThread]: Registered adapter: postgres=1.10.1
+[0m14:49:48.939811 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:49:49.024348 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:49:49.025858 [debug] [MainThread]: On debug: select 1 as id
+[0m14:49:49.025858 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:49:49.048411 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "finance_admin"
+
+[0m14:49:49.065443 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m14:49:49.065948 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m14:49:49.066956 [debug] [MainThread]: On debug: No close available on handle
+[0m14:49:49.067961 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:49:49.069468 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:49:49.070480 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "finance_admin"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:49:49.073477 [debug] [MainThread]: Command `dbt debug` failed at 14:49:49.073477 after 1.12 seconds
+[0m14:49:49.074477 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:49:49.074477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FFB95D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FFBAED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023F9FFBB9D0>]}
+[0m14:49:49.075984 [debug] [MainThread]: Flushing usage events
+[0m14:49:50.459468 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:56:06.342681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAAC27D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAAC1F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAAC2110>]}
+
+
+============================== 14:56:06.346231 | bdc36f80-fb31-419f-b6cb-7620c13c7bdd ==============================
+[0m14:56:06.346231 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m14:56:06.347740 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt', 'use_colors': 'True', 'invocation_command': 'dbt run --select staging', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt\\logs'}
+[0m14:56:06.665957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAC820D0>]}
+[0m14:56:06.736271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAB8EAD0>]}
+[0m14:56:06.737781 [info ] [MainThread]: Registered adapter: postgres=1.10.1
+[0m14:56:07.219007 [debug] [MainThread]: checksum: 40beab80b6cad862030875d0a18b9ee6cc0d3d0e050479ced91404139da7fe01, vars: {}, profile: finance_pipeline, target: dev, version: 1.12.0b3
+[0m14:56:07.460715 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:56:07.461715 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:56:07.462714 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:56:07.515613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC211E10>]}
+[0m14:56:07.641693 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\manifest.json
+[0m14:56:07.648210 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\semantic_manifest.json
+[0m14:56:07.680666 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\osi_document.json
+[0m14:56:07.703592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC12FFD0>]}
+[0m14:56:07.705601 [info ] [MainThread]: Found 4 models, 17 data tests, 2 sources, 591 macros
+[0m14:56:07.707600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC0D3490>]}
+[0m14:56:07.709612 [info ] [MainThread]: 
+[0m14:56:07.711608 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:56:07.712608 [info ] [MainThread]: 
+[0m14:56:07.714745 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:56:07.726823 [debug] [ThreadPool]: Acquiring new postgres connection 'list_finance_db'
+[0m14:56:07.843952 [debug] [ThreadPool]: Using postgres connection "list_finance_db"
+[0m14:56:07.843952 [debug] [ThreadPool]: On list_finance_db: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "list_finance_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m14:56:07.844964 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:56:07.894671 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.049 seconds
+[0m14:56:07.896668 [debug] [ThreadPool]: On list_finance_db: Close
+[0m14:56:07.898667 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_finance_db, now create_finance_db_dbt_dev)
+[0m14:56:07.901170 [debug] [ThreadPool]: Creating schema "database: "finance_db"
+schema: "dbt_dev"
+"
+[0m14:56:07.910710 [debug] [ThreadPool]: Using postgres connection "create_finance_db_dbt_dev"
+[0m14:56:07.910710 [debug] [ThreadPool]: On create_finance_db_dbt_dev: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "create_finance_db_dbt_dev"} */
+create schema if not exists "dbt_dev"
+[0m14:56:07.911709 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:56:07.936841 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.025 seconds
+[0m14:56:07.938837 [debug] [ThreadPool]: On create_finance_db_dbt_dev: COMMIT
+[0m14:56:07.939844 [debug] [ThreadPool]: Using postgres connection "create_finance_db_dbt_dev"
+[0m14:56:07.940838 [debug] [ThreadPool]: On create_finance_db_dbt_dev: COMMIT
+[0m14:56:07.943838 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m14:56:07.944957 [debug] [ThreadPool]: On create_finance_db_dbt_dev: Close
+[0m14:56:07.947472 [debug] [ThreadPool]: Acquiring new postgres connection 'list_finance_db_dbt_dev'
+[0m14:56:07.955534 [debug] [ThreadPool]: Using postgres connection "list_finance_db_dbt_dev"
+[0m14:56:07.958051 [debug] [ThreadPool]: On list_finance_db_dbt_dev: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "list_finance_db_dbt_dev"} */
+select
+      'finance_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbt_dev'
+    union all
+    select
+      'finance_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbt_dev'
+    union all
+    select
+      'finance_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dbt_dev'
+  
+[0m14:56:07.958683 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:56:07.995122 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.037 seconds
+[0m14:56:07.997632 [debug] [ThreadPool]: On list_finance_db_dbt_dev: ROLLBACK
+[0m14:56:07.999678 [debug] [ThreadPool]: On list_finance_db_dbt_dev: Close
+[0m14:56:08.007677 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:08.008675 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m14:56:08.009716 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:56:08.035051 [debug] [MainThread]: SQL status: SELECT 0 in 0.026 seconds
+[0m14:56:08.037594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC276F10>]}
+[0m14:56:08.038605 [debug] [MainThread]: On master: ROLLBACK
+[0m14:56:08.040611 [debug] [MainThread]: On master: COMMIT
+[0m14:56:08.041618 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:08.041618 [debug] [MainThread]: On master: COMMIT
+[0m14:56:08.044639 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m14:56:08.045640 [debug] [MainThread]: On master: Close
+[0m14:56:08.058794 [debug] [Thread-1 (]: Began running node model.finance_pipeline.stg_daily_prices
+[0m14:56:08.058794 [debug] [Thread-2 (]: Began running node model.finance_pipeline.stg_raw_responses_parsed
+[0m14:56:08.059792 [info ] [Thread-1 (]: 1 of 2 START sql view model dbt_dev.stg_daily_prices ........................... [RUN]
+[0m14:56:08.060808 [info ] [Thread-2 (]: 2 of 2 START sql view model dbt_dev.stg_raw_responses_parsed ................... [RUN]
+[0m14:56:08.062794 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.finance_pipeline.stg_daily_prices'
+[0m14:56:08.063809 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.finance_pipeline.stg_raw_responses_parsed'
+[0m14:56:08.064884 [debug] [Thread-1 (]: Began compiling node model.finance_pipeline.stg_daily_prices
+[0m14:56:08.065881 [debug] [Thread-2 (]: Began compiling node model.finance_pipeline.stg_raw_responses_parsed
+[0m14:56:08.082522 [debug] [Thread-1 (]: Writing injected SQL for node "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.090381 [debug] [Thread-2 (]: Writing injected SQL for node "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.095976 [debug] [Thread-1 (]: Began executing node model.finance_pipeline.stg_daily_prices
+[0m14:56:08.098017 [debug] [Thread-2 (]: Began executing node model.finance_pipeline.stg_raw_responses_parsed
+[0m14:56:08.142605 [debug] [Thread-1 (]: Writing runtime sql for node "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.151682 [debug] [Thread-2 (]: Writing runtime sql for node "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.159069 [debug] [Thread-2 (]: Using postgres connection "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.160157 [debug] [Thread-1 (]: Using postgres connection "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.161270 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_raw_responses_parsed"} */
+
+  create view "finance_db"."dbt_dev"."stg_raw_responses_parsed__dbt_tmp"
+    
+    
+  as (
+    with source as (
+    select * from "finance_db"."raw"."raw_api_responses"
+    where raw_payload ? 'Time Series (Daily)'  -- skip error/rate-limit payloads
+),
+
+exploded as (
+    select
+        r.response_id,
+        r.ticker,
+        r.fetched_at,
+        kv.key::date as trade_date,
+        kv.value as day_payload
+    from source r,
+         jsonb_each(r.raw_payload -> 'Time Series (Daily)') as kv(key, value)
+),
+
+parsed as (
+    select
+        response_id,
+        ticker,
+        fetched_at,
+        trade_date,
+        (day_payload ->> '1. open')::numeric(12,4)   as open_price,
+        (day_payload ->> '2. high')::numeric(12,4)   as high_price,
+        (day_payload ->> '3. low')::numeric(12,4)    as low_price,
+        (day_payload ->> '4. close')::numeric(12,4)  as close_price,
+        (day_payload ->> '5. volume')::bigint        as volume
+    from exploded
+)
+
+select * from parsed
+  );
+[0m14:56:08.162920 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_daily_prices"} */
+
+  create view "finance_db"."dbt_dev"."stg_daily_prices__dbt_tmp"
+    
+    
+  as (
+    with source as (
+    select * from "finance_db"."raw"."daily_prices"
+),
+
+cleaned as (
+    select
+        ticker,
+        trade_date,
+        open_price::numeric(12,4)   as open_price,
+        high_price::numeric(12,4)   as high_price,
+        low_price::numeric(12,4)    as low_price,
+        close_price::numeric(12,4)  as close_price,
+        volume::bigint              as volume,
+        source_response_id,
+        loaded_at
+    from source
+    where close_price > 0
+      and high_price >= low_price   -- guard against impossible OHLC relationships
+)
+
+select * from cleaned
+  );
+[0m14:56:08.163925 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:56:08.166266 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:56:08.207430 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.041 seconds
+[0m14:56:08.208443 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.044 seconds
+[0m14:56:08.215952 [debug] [Thread-1 (]: Using postgres connection "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.224510 [debug] [Thread-2 (]: Using postgres connection "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.225509 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_daily_prices"} */
+alter table "finance_db"."dbt_dev"."stg_daily_prices__dbt_tmp" rename to "stg_daily_prices"
+[0m14:56:08.227517 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_raw_responses_parsed"} */
+alter table "finance_db"."dbt_dev"."stg_raw_responses_parsed__dbt_tmp" rename to "stg_raw_responses_parsed"
+[0m14:56:08.229515 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m14:56:08.230515 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.002 seconds
+[0m14:56:08.252242 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: COMMIT
+[0m14:56:08.255787 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: COMMIT
+[0m14:56:08.257776 [debug] [Thread-1 (]: Using postgres connection "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.258782 [debug] [Thread-2 (]: Using postgres connection "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.259782 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: COMMIT
+[0m14:56:08.260786 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: COMMIT
+[0m14:56:08.263795 [debug] [Thread-1 (]: SQL status: COMMIT in 0.002 seconds
+[0m14:56:08.263795 [debug] [Thread-2 (]: SQL status: COMMIT in 0.003 seconds
+[0m14:56:08.272523 [debug] [Thread-1 (]: Applying DROP to: "finance_db"."dbt_dev"."stg_daily_prices__dbt_backup"
+[0m14:56:08.275910 [debug] [Thread-2 (]: Applying DROP to: "finance_db"."dbt_dev"."stg_raw_responses_parsed__dbt_backup"
+[0m14:56:08.282422 [debug] [Thread-1 (]: Using postgres connection "model.finance_pipeline.stg_daily_prices"
+[0m14:56:08.283926 [debug] [Thread-2 (]: Using postgres connection "model.finance_pipeline.stg_raw_responses_parsed"
+[0m14:56:08.283926 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_daily_prices"} */
+drop view if exists "finance_db"."dbt_dev"."stg_daily_prices__dbt_backup" cascade
+[0m14:56:08.286453 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "model.finance_pipeline.stg_raw_responses_parsed"} */
+drop view if exists "finance_db"."dbt_dev"."stg_raw_responses_parsed__dbt_backup" cascade
+[0m14:56:08.289462 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m14:56:08.291454 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m14:56:08.294973 [debug] [Thread-1 (]: On model.finance_pipeline.stg_daily_prices: Close
+[0m14:56:08.297479 [debug] [Thread-2 (]: On model.finance_pipeline.stg_raw_responses_parsed: Close
+[0m14:56:08.312585 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC15B450>]}
+[0m14:56:08.312585 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bdc36f80-fb31-419f-b6cb-7620c13c7bdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BC7A5590>]}
+[0m14:56:08.313584 [info ] [Thread-1 (]: 1 of 2 OK created sql view model dbt_dev.stg_daily_prices ...................... [[32mCREATE VIEW[0m in 0.24s]
+[0m14:56:08.314838 [info ] [Thread-2 (]: 2 of 2 OK created sql view model dbt_dev.stg_raw_responses_parsed .............. [[32mCREATE VIEW[0m in 0.24s]
+[0m14:56:08.316839 [debug] [Thread-1 (]: Finished running node model.finance_pipeline.stg_daily_prices
+[0m14:56:08.319354 [debug] [Thread-2 (]: Finished running node model.finance_pipeline.stg_raw_responses_parsed
+[0m14:56:08.323980 [debug] [MainThread]: On master: COMMIT
+[0m14:56:08.324991 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:08.325988 [debug] [MainThread]: On master: COMMIT
+[0m14:56:08.325988 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:56:08.350697 [debug] [MainThread]: SQL status: COMMIT in 0.025 seconds
+[0m14:56:08.352203 [debug] [MainThread]: On master: Close
+[0m14:56:08.355745 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:56:08.357744 [debug] [MainThread]: Connection 'create_finance_db_dbt_dev' was properly closed.
+[0m14:56:08.359259 [debug] [MainThread]: Connection 'list_finance_db_dbt_dev' was properly closed.
+[0m14:56:08.360262 [debug] [MainThread]: Connection 'model.finance_pipeline.stg_daily_prices' was properly closed.
+[0m14:56:08.361261 [debug] [MainThread]: Connection 'model.finance_pipeline.stg_raw_responses_parsed' was properly closed.
+[0m14:56:08.362260 [info ] [MainThread]: 
+[0m14:56:08.364387 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 0.65 seconds (0.65s).
+[0m14:56:08.367407 [debug] [MainThread]: Command end result
+[0m14:56:08.495653 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\manifest.json
+[0m14:56:08.502185 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\semantic_manifest.json
+[0m14:56:08.511709 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\osi_document.json
+[0m14:56:08.526776 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\run_results.json
+[0m14:56:08.527788 [info ] [MainThread]: 
+[0m14:56:08.529786 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:56:08.531783 [info ] [MainThread]: 
+[0m14:56:08.532790 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=2
+[0m14:56:08.536864 [debug] [MainThread]: Command `dbt run` succeeded at 14:56:08.535855 after 2.32 seconds
+[0m14:56:08.537874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAA0E490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193B34F6250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193BAAA9ED0>]}
+[0m14:56:08.539873 [debug] [MainThread]: Flushing usage events
+[0m14:56:10.033673 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:56:23.403887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016D9C3CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016D9C28D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016D9C1E90>]}
+
+
+============================== 14:56:23.409907 | 0f81a9e4-42da-4665-ac83-a00e7846e11c ==============================
+[0m14:56:23.409907 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m14:56:23.411906 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt test --select staging', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\karth\\OneDrive\\Documents\\Finance_ELT_Project\\finance-elt-pipeline\\dbt\\logs'}
+[0m14:56:23.812041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016DCA1510>]}
+[0m14:56:23.892110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201691E3690>]}
+[0m14:56:23.894637 [info ] [MainThread]: Registered adapter: postgres=1.10.1
+[0m14:56:24.639136 [debug] [MainThread]: checksum: 40beab80b6cad862030875d0a18b9ee6cc0d3d0e050479ced91404139da7fe01, vars: {}, profile: finance_pipeline, target: dev, version: 1.12.0b3
+[0m14:56:24.864409 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:56:24.865418 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:56:24.866418 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:56:24.925888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016DCE7A50>]}
+[0m14:56:25.044230 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\manifest.json
+[0m14:56:25.050556 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\semantic_manifest.json
+[0m14:56:25.097065 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\osi_document.json
+[0m14:56:25.153885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016F3FD150>]}
+[0m14:56:25.156905 [info ] [MainThread]: Found 4 models, 17 data tests, 2 sources, 591 macros
+[0m14:56:25.158907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016F071690>]}
+[0m14:56:25.161946 [info ] [MainThread]: 
+[0m14:56:25.162945 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:56:25.164923 [info ] [MainThread]: 
+[0m14:56:25.165931 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:56:25.172942 [debug] [ThreadPool]: Acquiring new postgres connection 'list_finance_db_dbt_dev'
+[0m14:56:25.415946 [debug] [ThreadPool]: Using postgres connection "list_finance_db_dbt_dev"
+[0m14:56:25.418473 [debug] [ThreadPool]: On list_finance_db_dbt_dev: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "list_finance_db_dbt_dev"} */
+select
+      'finance_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbt_dev'
+    union all
+    select
+      'finance_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbt_dev'
+    union all
+    select
+      'finance_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'dbt_dev'
+  
+[0m14:56:25.419981 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:56:25.471231 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.051 seconds
+[0m14:56:25.474234 [debug] [ThreadPool]: On list_finance_db_dbt_dev: ROLLBACK
+[0m14:56:25.475749 [debug] [ThreadPool]: On list_finance_db_dbt_dev: Close
+[0m14:56:25.484270 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:25.485279 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m14:56:25.486786 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:56:25.508883 [debug] [MainThread]: SQL status: SELECT 2 in 0.022 seconds
+[0m14:56:25.510879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0f81a9e4-42da-4665-ac83-a00e7846e11c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016B7AD050>]}
+[0m14:56:25.510879 [debug] [MainThread]: On master: ROLLBACK
+[0m14:56:25.512882 [debug] [MainThread]: On master: COMMIT
+[0m14:56:25.512882 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:25.513882 [debug] [MainThread]: On master: COMMIT
+[0m14:56:25.515918 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m14:56:25.515918 [debug] [MainThread]: On master: Close
+[0m14:56:25.523952 [debug] [Thread-1 (]: Began running node test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a
+[0m14:56:25.525049 [debug] [Thread-2 (]: Began running node test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2
+[0m14:56:25.526049 [debug] [Thread-3 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0
+[0m14:56:25.526049 [debug] [Thread-4 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f
+[0m14:56:25.527048 [info ] [Thread-1 (]: 1 of 11 START test dbt_utils_accepted_range_stg_daily_prices_close_price__False__0  [RUN]
+[0m14:56:25.528050 [info ] [Thread-2 (]: 2 of 11 START test dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date  [RUN]
+[0m14:56:25.528050 [info ] [Thread-3 (]: 3 of 11 START test not_null_stg_daily_prices_close_price ....................... [RUN]
+[0m14:56:25.529052 [info ] [Thread-4 (]: 4 of 11 START test not_null_stg_daily_prices_high_price ........................ [RUN]
+[0m14:56:25.530047 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a'
+[0m14:56:25.531049 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2'
+[0m14:56:25.532049 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0'
+[0m14:56:25.533047 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f'
+[0m14:56:25.534052 [debug] [Thread-1 (]: Began compiling node test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a
+[0m14:56:25.535090 [debug] [Thread-2 (]: Began compiling node test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2
+[0m14:56:25.536104 [debug] [Thread-3 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0
+[0m14:56:25.537092 [debug] [Thread-4 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f
+[0m14:56:25.561183 [debug] [Thread-1 (]: Writing injected SQL for node "test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a"
+[0m14:56:25.572216 [debug] [Thread-2 (]: Writing injected SQL for node "test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2"
+[0m14:56:25.582814 [debug] [Thread-3 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0"
+[0m14:56:25.589857 [debug] [Thread-4 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f"
+[0m14:56:25.592855 [debug] [Thread-2 (]: Began executing node test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2
+[0m14:56:25.594369 [debug] [Thread-1 (]: Began executing node test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a
+[0m14:56:25.619159 [debug] [Thread-2 (]: Writing runtime sql for node "test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2"
+[0m14:56:25.621168 [debug] [Thread-4 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f
+[0m14:56:25.623169 [debug] [Thread-3 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0
+[0m14:56:25.629696 [debug] [Thread-1 (]: Writing runtime sql for node "test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a"
+[0m14:56:25.637216 [debug] [Thread-4 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f"
+[0m14:56:25.643222 [debug] [Thread-3 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0"
+[0m14:56:25.644728 [debug] [Thread-2 (]: Using postgres connection "test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2"
+[0m14:56:25.647744 [debug] [Thread-1 (]: Using postgres connection "test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a"
+[0m14:56:25.648745 [debug] [Thread-2 (]: On test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+
+
+
+
+with validation_errors as (
+
+    select
+        ticker, trade_date
+    from "finance_db"."dbt_dev"."stg_daily_prices"
+    group by ticker, trade_date
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.650745 [debug] [Thread-4 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f"
+[0m14:56:25.651745 [debug] [Thread-3 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0"
+[0m14:56:25.653251 [debug] [Thread-1 (]: On test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+with meet_condition as(
+  select *
+  from "finance_db"."dbt_dev"."stg_daily_prices"
+),
+
+validation_errors as (
+  select *
+  from meet_condition
+  where
+    -- never true, defaults to an empty result set. Exists to ensure any combo of the `or` clauses below succeeds
+    1 = 2
+    -- records with a value >= min_value are permitted. The `not` flips this to find records that don't meet the rule.
+    or not close_price > 0
+)
+
+select *
+from validation_errors
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.655270 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:56:25.657790 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select high_price
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where high_price is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.659804 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select close_price
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where close_price is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.660803 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:56:25.662807 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m14:56:25.664316 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:56:25.700999 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.046 seconds
+[0m14:56:25.702998 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.040 seconds
+[0m14:56:25.704000 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.042 seconds
+[0m14:56:25.704511 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.041 seconds
+[0m14:56:25.713040 [debug] [Thread-2 (]: On test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2: ROLLBACK
+[0m14:56:25.716097 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f: ROLLBACK
+[0m14:56:25.718612 [debug] [Thread-1 (]: On test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a: ROLLBACK
+[0m14:56:25.720712 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0: ROLLBACK
+[0m14:56:25.722716 [debug] [Thread-2 (]: On test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2: Close
+[0m14:56:25.725233 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f: Close
+[0m14:56:25.726236 [debug] [Thread-1 (]: On test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a: Close
+[0m14:56:25.727235 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0: Close
+[0m14:56:25.728243 [info ] [Thread-2 (]: 2 of 11 PASS dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date  [[32mPASS[0m in 0.20s]
+[0m14:56:25.730246 [info ] [Thread-4 (]: 4 of 11 PASS not_null_stg_daily_prices_high_price .............................. [[32mPASS[0m in 0.20s]
+[0m14:56:25.732246 [info ] [Thread-1 (]: 1 of 11 PASS dbt_utils_accepted_range_stg_daily_prices_close_price__False__0 ... [[32mPASS[0m in 0.20s]
+[0m14:56:25.734241 [info ] [Thread-3 (]: 3 of 11 PASS not_null_stg_daily_prices_close_price ............................. [[32mPASS[0m in 0.20s]
+[0m14:56:25.736548 [debug] [Thread-2 (]: Finished running node test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2
+[0m14:56:25.739065 [debug] [Thread-4 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f
+[0m14:56:25.740063 [debug] [Thread-1 (]: Finished running node test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a
+[0m14:56:25.742065 [debug] [Thread-3 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0
+[0m14:56:25.743069 [debug] [Thread-2 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802
+[0m14:56:25.745194 [debug] [Thread-4 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638
+[0m14:56:25.747188 [debug] [Thread-1 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd
+[0m14:56:25.748191 [debug] [Thread-3 (]: Began running node test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51
+[0m14:56:25.749186 [info ] [Thread-2 (]: 5 of 11 START test not_null_stg_daily_prices_low_price ......................... [RUN]
+[0m14:56:25.750191 [info ] [Thread-4 (]: 6 of 11 START test not_null_stg_daily_prices_open_price ........................ [RUN]
+[0m14:56:25.751187 [info ] [Thread-1 (]: 7 of 11 START test not_null_stg_daily_prices_ticker ............................ [RUN]
+[0m14:56:25.752696 [info ] [Thread-3 (]: 8 of 11 START test not_null_stg_daily_prices_trade_date ........................ [RUN]
+[0m14:56:25.752696 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.dbt_utils_unique_combination_of_columns_stg_daily_prices_ticker__trade_date.3e363a9bc2, now test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802)
+[0m14:56:25.755343 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.not_null_stg_daily_prices_high_price.cad3ef989f, now test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638)
+[0m14:56:25.756336 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.dbt_utils_accepted_range_stg_daily_prices_close_price__False__0.dff0df563a, now test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd)
+[0m14:56:25.757847 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.not_null_stg_daily_prices_close_price.09b742dda0, now test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51)
+[0m14:56:25.758857 [debug] [Thread-2 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802
+[0m14:56:25.759861 [debug] [Thread-4 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638
+[0m14:56:25.760855 [debug] [Thread-1 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd
+[0m14:56:25.761857 [debug] [Thread-3 (]: Began compiling node test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51
+[0m14:56:25.769102 [debug] [Thread-2 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802"
+[0m14:56:25.775616 [debug] [Thread-4 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638"
+[0m14:56:25.782135 [debug] [Thread-1 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd"
+[0m14:56:25.791167 [debug] [Thread-3 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51"
+[0m14:56:25.793168 [debug] [Thread-2 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802
+[0m14:56:25.795700 [debug] [Thread-4 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638
+[0m14:56:25.796707 [debug] [Thread-1 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd
+[0m14:56:25.801228 [debug] [Thread-2 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802"
+[0m14:56:25.803226 [debug] [Thread-3 (]: Began executing node test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51
+[0m14:56:25.806742 [debug] [Thread-4 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638"
+[0m14:56:25.812533 [debug] [Thread-1 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd"
+[0m14:56:25.816612 [debug] [Thread-3 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51"
+[0m14:56:25.818138 [debug] [Thread-2 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802"
+[0m14:56:25.822457 [debug] [Thread-4 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638"
+[0m14:56:25.823968 [debug] [Thread-1 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd"
+[0m14:56:25.824976 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select low_price
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where low_price is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.826976 [debug] [Thread-3 (]: Using postgres connection "test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51"
+[0m14:56:25.827979 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select open_price
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where open_price is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.828988 [debug] [Thread-1 (]: On test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select ticker
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where ticker is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.829983 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m14:56:25.830986 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select trade_date
+from "finance_db"."dbt_dev"."stg_daily_prices"
+where trade_date is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.831986 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m14:56:25.832987 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:56:25.834492 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m14:56:25.867472 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.037 seconds
+[0m14:56:25.868468 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.034 seconds
+[0m14:56:25.869467 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.038 seconds
+[0m14:56:25.872469 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802: ROLLBACK
+[0m14:56:25.875513 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51: ROLLBACK
+[0m14:56:25.878090 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638: ROLLBACK
+[0m14:56:25.879098 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.046 seconds
+[0m14:56:25.881097 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802: Close
+[0m14:56:25.882101 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51: Close
+[0m14:56:25.882101 [debug] [Thread-4 (]: On test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638: Close
+[0m14:56:25.884608 [debug] [Thread-1 (]: On test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd: ROLLBACK
+[0m14:56:25.888122 [info ] [Thread-2 (]: 5 of 11 PASS not_null_stg_daily_prices_low_price ............................... [[32mPASS[0m in 0.13s]
+[0m14:56:25.890126 [info ] [Thread-3 (]: 8 of 11 PASS not_null_stg_daily_prices_trade_date .............................. [[32mPASS[0m in 0.13s]
+[0m14:56:25.893123 [info ] [Thread-4 (]: 6 of 11 PASS not_null_stg_daily_prices_open_price .............................. [[32mPASS[0m in 0.14s]
+[0m14:56:25.895651 [debug] [Thread-2 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802
+[0m14:56:25.896651 [debug] [Thread-1 (]: On test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd: Close
+[0m14:56:25.899175 [debug] [Thread-3 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51
+[0m14:56:25.901173 [debug] [Thread-4 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638
+[0m14:56:25.903175 [debug] [Thread-2 (]: Began running node test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b
+[0m14:56:25.905416 [info ] [Thread-1 (]: 7 of 11 PASS not_null_stg_daily_prices_ticker .................................. [[32mPASS[0m in 0.15s]
+[0m14:56:25.907925 [debug] [Thread-3 (]: Began running node test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b
+[0m14:56:25.909939 [debug] [Thread-4 (]: Began running node test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a
+[0m14:56:25.910938 [info ] [Thread-2 (]: 9 of 11 START test not_null_stg_raw_responses_parsed_response_id ............... [RUN]
+[0m14:56:25.912942 [debug] [Thread-1 (]: Finished running node test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd
+[0m14:56:25.914454 [info ] [Thread-3 (]: 10 of 11 START test not_null_stg_raw_responses_parsed_trade_date ............... [RUN]
+[0m14:56:25.916457 [info ] [Thread-4 (]: 11 of 11 START test relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_  [RUN]
+[0m14:56:25.917457 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.not_null_stg_daily_prices_low_price.8b7eb3c802, now test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b)
+[0m14:56:25.920247 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.not_null_stg_daily_prices_trade_date.887fc81a51, now test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b)
+[0m14:56:25.922244 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.finance_pipeline.not_null_stg_daily_prices_open_price.68b52ac638, now test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a)
+[0m14:56:25.923256 [debug] [Thread-2 (]: Began compiling node test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b
+[0m14:56:25.925772 [debug] [Thread-3 (]: Began compiling node test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b
+[0m14:56:25.926766 [debug] [Thread-4 (]: Began compiling node test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a
+[0m14:56:25.935288 [debug] [Thread-2 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b"
+[0m14:56:25.942802 [debug] [Thread-3 (]: Writing injected SQL for node "test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b"
+[0m14:56:25.959871 [debug] [Thread-4 (]: Writing injected SQL for node "test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a"
+[0m14:56:25.962871 [debug] [Thread-2 (]: Began executing node test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b
+[0m14:56:25.964381 [debug] [Thread-3 (]: Began executing node test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b
+[0m14:56:25.968912 [debug] [Thread-2 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b"
+[0m14:56:25.969915 [debug] [Thread-4 (]: Began executing node test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a
+[0m14:56:25.977005 [debug] [Thread-3 (]: Writing runtime sql for node "test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b"
+[0m14:56:25.984512 [debug] [Thread-4 (]: Writing runtime sql for node "test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a"
+[0m14:56:25.986021 [debug] [Thread-2 (]: Using postgres connection "test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b"
+[0m14:56:25.990045 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select response_id
+from "finance_db"."dbt_dev"."stg_raw_responses_parsed"
+where response_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.991045 [debug] [Thread-3 (]: Using postgres connection "test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b"
+[0m14:56:25.992046 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m14:56:25.993049 [debug] [Thread-4 (]: Using postgres connection "test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a"
+[0m14:56:25.994549 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select trade_date
+from "finance_db"."dbt_dev"."stg_raw_responses_parsed"
+where trade_date is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.996556 [debug] [Thread-4 (]: On test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a: /* {"app": "dbt", "dbt_version": "1.12.0b3", "profile_name": "finance_pipeline", "target_name": "dev", "node_id": "test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select source_response_id as from_field
+    from "finance_db"."dbt_dev"."stg_daily_prices"
+    where source_response_id is not null
+),
+
+parent as (
+    select response_id as to_field
+    from "finance_db"."raw"."raw_api_responses"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:56:25.999079 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m14:56:26.001077 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m14:56:26.029997 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.038 seconds
+[0m14:56:26.033999 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b: ROLLBACK
+[0m14:56:26.035517 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.035 seconds
+[0m14:56:26.036516 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.038 seconds
+[0m14:56:26.039040 [debug] [Thread-4 (]: On test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a: ROLLBACK
+[0m14:56:26.040038 [debug] [Thread-2 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b: Close
+[0m14:56:26.042042 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b: ROLLBACK
+[0m14:56:26.045567 [debug] [Thread-4 (]: On test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a: Close
+[0m14:56:26.044552 [info ] [Thread-2 (]: 9 of 11 PASS not_null_stg_raw_responses_parsed_response_id ..................... [[32mPASS[0m in 0.13s]
+[0m14:56:26.048073 [info ] [Thread-4 (]: 11 of 11 PASS relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_  [[32mPASS[0m in 0.13s]
+[0m14:56:26.050090 [debug] [Thread-3 (]: On test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b: Close
+[0m14:56:26.051087 [debug] [Thread-2 (]: Finished running node test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b
+[0m14:56:26.052594 [debug] [Thread-4 (]: Finished running node test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a
+[0m14:56:26.056130 [info ] [Thread-3 (]: 10 of 11 PASS not_null_stg_raw_responses_parsed_trade_date ..................... [[32mPASS[0m in 0.14s]
+[0m14:56:26.060143 [debug] [Thread-3 (]: Finished running node test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b
+[0m14:56:26.063130 [debug] [MainThread]: On master: COMMIT
+[0m14:56:26.064130 [debug] [MainThread]: Using postgres connection "master"
+[0m14:56:26.065344 [debug] [MainThread]: On master: COMMIT
+[0m14:56:26.066342 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:56:26.084102 [debug] [MainThread]: SQL status: COMMIT in 0.017 seconds
+[0m14:56:26.085120 [debug] [MainThread]: On master: Close
+[0m14:56:26.087346 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:56:26.089358 [debug] [MainThread]: Connection 'list_finance_db_dbt_dev' was properly closed.
+[0m14:56:26.090358 [debug] [MainThread]: Connection 'test.finance_pipeline.not_null_stg_daily_prices_ticker.74fb8a1bbd' was properly closed.
+[0m14:56:26.092354 [debug] [MainThread]: Connection 'test.finance_pipeline.not_null_stg_raw_responses_parsed_response_id.6195fd7a5b' was properly closed.
+[0m14:56:26.093864 [debug] [MainThread]: Connection 'test.finance_pipeline.not_null_stg_raw_responses_parsed_trade_date.e52833352b' was properly closed.
+[0m14:56:26.093864 [debug] [MainThread]: Connection 'test.finance_pipeline.relationships_stg_daily_prices_source_response_id__response_id__source_raw_raw_api_responses_.23fdfe144a' was properly closed.
+[0m14:56:26.094873 [info ] [MainThread]: 
+[0m14:56:26.095877 [info ] [MainThread]: Finished running 11 data tests in 0 hours 0 minutes and 0.93 seconds (0.93s).
+[0m14:56:26.099395 [debug] [MainThread]: Command end result
+[0m14:56:26.220416 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\manifest.json
+[0m14:56:26.233222 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\semantic_manifest.json
+[0m14:56:26.244361 [debug] [MainThread]: Wrote artifact OsiDocument to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\osi_document.json
+[0m14:56:26.264997 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\karth\OneDrive\Documents\Finance_ELT_Project\finance-elt-pipeline\dbt\target\run_results.json
+[0m14:56:26.266002 [info ] [MainThread]: 
+[0m14:56:26.266998 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:56:26.268001 [info ] [MainThread]: 
+[0m14:56:26.269003 [info ] [MainThread]: Done. PASS=11 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=11
+[0m14:56:26.271000 [debug] [MainThread]: Command `dbt test` succeeded at 14:56:26.271000 after 3.02 seconds
+[0m14:56:26.271000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016DAC7650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020163ED6250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002016D9A9F10>]}
+[0m14:56:26.271997 [debug] [MainThread]: Flushing usage events
+[0m14:56:27.699062 [debug] [MainThread]: An error was encountered while trying to flush usage events

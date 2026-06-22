@@ -1,0 +1,32 @@
+finance_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: "{{ env_var('PGUSER', 'finance_admin') }}"
+      password: "{{ env_var('PGPASSWORD', 'password1234') }}"
+      port: 5432
+      dbname: finance_db
+      schema: dbt_dev       
+      threads: 4
+
+    ci:
+      type: postgres
+      host: "{{ env_var('PGHOST') }}"
+      user: "{{ env_var('PGUSER') }}"
+      password: "{{ env_var('PGPASSWORD') }}"
+      port: "{{ env_var('PGPORT') | as_number }}"
+      dbname: "{{ env_var('PGDATABASE') }}"
+      schema: dbt_ci
+      threads: 4
+
+    prod:
+      type: postgres
+      host: "{{ env_var('PROD_PGHOST') }}"
+      user: "{{ env_var('PROD_PGUSER') }}"
+      password: "{{ env_var('PROD_PGPASSWORD') }}"
+      port: 5432
+      dbname: "{{ env_var('PROD_PGDATABASE') }}"
+      schema: marts         
+      threads: 4

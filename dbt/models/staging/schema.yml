@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: stg_daily_prices
+    description: >
+      Cleaned, typed daily OHLCV price records per ticker.
+      Filters out malformed rows (non-positive close, impossible OHLC).
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+      - name: close_price
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: false
+      - name: open_price
+        tests: [not_null]
+      - name: high_price
+        tests: [not_null]
+      - name: low_price
+        tests: [not_null]
+      - name: source_response_id
+        description: Foreign key back to raw_api_responses, enabling full lineage to the original API payload.
+        tests:
+          - relationships:
+              to: source('raw', 'raw_api_responses')
+              field: response_id
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [ticker, trade_date]
+
+  - name: stg_raw_responses_parsed
+    description: >
+      Direct JSONB parse of raw_api_responses, independent of the typed
+      daily_prices table. Used for lineage verification and debugging.
+    columns:
+      - name: response_id
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
