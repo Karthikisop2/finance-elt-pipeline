@@ -1,0 +1,11 @@
+ticker,company_name,sector
+AAPL,Apple Inc.,Technology
+MSFT,Microsoft Corporation,Technology
+GOOGL,Alphabet Inc.,Technology
+AMZN,Amazon.com Inc.,Consumer Discretionary
+NVDA,NVIDIA Corporation,Technology
+META,Meta Platforms Inc.,Technology
+TSLA,Tesla Inc.,Consumer Discretionary
+JPM,JPMorgan Chase & Co.,Financials
+V,Visa Inc.,Financials
+JNJ,Johnson & Johnson,Healthcare
