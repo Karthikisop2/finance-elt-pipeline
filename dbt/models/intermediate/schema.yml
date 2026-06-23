@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: int_daily_returns
+    description: >
+      Daily price data enriched with day-over-day return calculation.
+      Grain: one row per ticker per trading day.
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+      - name: daily_return
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: -1
+              max_value: 5
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [ticker, trade_date]
+
+  - name: int_rolling_metrics
+    description: Rolling moving averages and volatility metrics per ticker.
+    columns:
+      - name: moving_avg_20d
+        tests:
+          - not_null
+      - name: is_partial_window_20d
+        description: >
+          True when fewer than 20 trading days of history exist for this ticker.
+        tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+
+  - name: int_sector_benchmarks
+    description: Sector-level average daily returns.
+    columns:
+      - name: sector
+        tests: [not_null]
+      - name: tickers_in_sector
+        tests: [not_null]
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [trade_date, sector]
