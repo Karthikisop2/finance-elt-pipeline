@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: fct_daily_prices
+    description: >
+      Primary fact table for the dashboard. One row per ticker per trading
+      day, combining price data, return/volatility metrics, sector
+      classification, and sector-relative performance. Grain: (ticker, trade_date).
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+      - name: sector
+        description: Denormalized from dim_tickers.
+        tests: [not_null]
+      - name: return_vs_sector
+        description: daily_return minus that day's sector average return.
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [ticker, trade_date]
+
+  - name: fct_sector_daily_summary
+    description: >
+      Sector-level daily aggregates, pre-computed so Superset dashboards
+      avoid expensive group-by queries against the full fact table.
+      Grain: (sector, trade_date).
+    columns:
+      - name: sector
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+      - name: tickers_in_sector
+        tests: [not_null]
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [sector, trade_date]
